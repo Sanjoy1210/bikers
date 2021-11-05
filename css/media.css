@@ -1,0 +1,69 @@
+@media only screen and (max-width: 668px) {
+  .banner-area {
+    padding-top: 46px;
+    padding-bottom: 34px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+  
+  .banner-image {
+    padding-top: 56px;
+  }
+
+  .section-title {
+    font-size: 36px;
+  }
+
+  .sub-title {
+    font-size: 14px;
+  }
+
+  .sub-title::after {
+    left: 42%;
+    width: 60px;
+  }
+
+  .featured-section {
+    padding-top: 100px;
+  }
+
+  .bikes-wrapper img {
+    width: 90%;
+  }
+  .bikes-wrapper .col {
+    margin-bottom: 70px;
+  }
+
+  /* latest news section css */
+  .latest-news-section {
+    padding-top: 75px;
+  }
+
+  .latest-news-section-title {
+    padding-bottom: 40px;
+  }
+
+  .single-news-item-title {
+    padding-top: 34px;
+    padding-bottom: 6px;
+  }
+
+  .single-news-item-description p {
+    padding-bottom: 34px;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+}
+
+@media only screen and (min-width: 669px) and (max-width: 991px) {
+  .banner-area {
+    padding-bottom: 34px;
+    padding-top: 46px;
+  }
+
+  .banner-image {
+    padding-top: 56px;
+  }
+}

@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-padding: 5.5rem;
+  scroll-behavior: smooth;
+}
+
+/* body */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  /* overflow: hidden; */
+}
+
+.section-title {
+  font-size: 3rem;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.regular-btn {
+  background-color: #E76F51;
+  color: #fff;
+  font-size: 1.7rem;
+  padding: 10px 3.2rem;
+  border-radius: 10px;
+}
+
+.regular-btn:hover {
+  color: #fff;
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 48px;
+}
+
+/* header area css */
+.header-area {
+  background-color: #264653;
+  /* margin-bottom: 500px; */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: #E76F51;
+}
+
+.navbar-nav a:not(:last-child) {
+  margin-right: 2.2rem;
+  font-size: 1.7rem;
+  color: #fff;
+  transition: .5s;
+}
+
+.navbar a:hover:not(:last-child) {
+  color: #E76F51;
+}
+
+.login-btn {
+  font-size: 1.7rem;
+  background-color: transparent;
+  color: #E76F51;
+  border: 1px solid #E76F51;
+  padding: 4px 16px;
+}
+
+.login-btn:hover {
+  background-color: #E76F51;
+  color: #fff;
+}
+
+.banner-area {
+  padding-top: 69px;
+  padding-bottom: 96px;
+}
+
+.banner-info-area {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.banner-title h4 {
+  font-size: 2rem;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.banner-details {
+  margin-top: 18px;
+  margin-bottom: 24px;
+}
+
+.banner-details p {
+  font-size: 1.5rem;
+  color: #fff;
+  line-height: 1.8;
+}
+
+/* feature section css */
+.featured-section {
+  padding-top: 64px;
+}
+.featured-section-title {
+  position: relative;
+}
+.sub-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #E76F51;
+}
+
+.sub-title::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 47%;
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  height: 2px;
+  width: 68px;
+  background: #E76F51;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.featured-bikes {
+  margin-top: 100px;
+}
+
+.featured-bikes .bikes-wrapper .col:nth-child(odd) {
+  filter: grayscale(100%);
+}
+
+/* latest news section css */
+.latest-news-section {
+  padding-top: 165px;
+}
+
+.latest-news-section-title {
+  padding-bottom: 47px;
+}
+.single-news-item {
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.single-news-item .single-news-item-img img {
+  width: 100%;
+}
+
+.single-news-item-title {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.single-news-item-title h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.single-news-item-description p {
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: justify;
+  padding-bottom: 40px;
+}
+
+.outline-btn {
+  border: 1px solid #E76F51;
+  padding: 10px 15px;
+  color: #E76F51;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.outline-btn:hover {
+  background-color: #E76F51;
+  color: #fff;
+}
+
+/* client section css */
+.single-review-item {
+  padding: 40px 35px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.single-review-item .single-review-item-img img {
+  width: 50%;
+  display: block;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.single-review-item-description p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.client-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #23A6F0;
+  padding-bottom: 15px;
+}
+
+.designation {
+  font-size: 14px;
+  color: #252B42;
+  font-weight: 600;
+}
