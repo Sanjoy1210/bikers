@@ -66,6 +66,15 @@
     display: grid;
     line-height: 1.6;
   }
+
+  /* faq section css */
+  .faq-section-title {
+    padding-bottom: 23px;
+  }
+
+  .faq-section-img {
+    padding-bottom: 67px;
+  }
 }
 
 @media only screen and (min-width: 669px) and (max-width: 991px) {
