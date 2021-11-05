@@ -55,6 +55,17 @@
     font-size: 14px;
     line-height: 1.8;
   }
+
+  /* client section css */
+  .client-section {
+    padding-top: 82px;
+  }
+  
+  .client-section-title .section-title {
+    padding-bottom: 40px;
+    display: grid;
+    line-height: 1.6;
+  }
 }
 
 @media only screen and (min-width: 669px) and (max-width: 991px) {
