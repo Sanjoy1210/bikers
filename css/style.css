@@ -273,3 +273,52 @@ body {
 .accordion-body {
   font-size: 16px;
 }
+
+/* footer section css */
+.footer-section {
+  padding-top: 150px;
+}
+
+.footer-section-wrapper {
+  background-color: #0B0D17;
+  padding-top: 56px;
+}
+
+.footer-section-wrapper a {
+  font-size: 16px;
+  text-decoration: none;
+  padding-right: 24px;
+  color: #fff;
+}
+
+.important-links {
+  padding-bottom: 12px;
+}
+
+.menu-items {
+  padding-bottom: 24px;
+}
+
+.copyrights {
+  font-size: 14px;
+  color: #D9DBE1;
+}
+
+.get-the-app {
+  padding-bottom: 84px;
+}
+
+.get-app-title {
+  color: #D9DBE1;
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+
+.get-app-img img {
+  padding-bottom: 16px;
+}
+
+.md-screen {
+  display: none;
+}

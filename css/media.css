@@ -75,6 +75,17 @@
   .faq-section-img {
     padding-bottom: 67px;
   }
+
+  /* footer section css */
+  .lg-screen {
+    display: none;
+  }
+
+  .md-screen {
+    display: block;
+    padding-bottom: 43px;
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 669px) and (max-width: 991px) {
@@ -85,5 +96,16 @@
 
   .banner-image {
     padding-top: 56px;
+  }
+
+  /* footer section css */
+  .lg-screen {
+    display: none;
+  }
+
+  .md-screen {
+    display: block;
+    padding-bottom: 43px;
+    margin-bottom: 0;
   }
 }
